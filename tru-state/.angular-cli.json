@@ -21,13 +21,12 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/font-awesome/css/font-awesome.css",
-        "src/app/shared/css/new-age.css",
-        "src/app/shared/css/sb-admin.css"
+        "../node_modules/startbootstrap-new-age/css/new-age.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.js",
-        "src/app/shared/js/jquery.easing.js"
+        "app/shared/js/jquery.easing.js"
     ],
       "environmentSource": "environments/environment.ts",
       "environments": {

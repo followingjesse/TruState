@@ -29,6 +29,7 @@
     "jquery": "^3.3.1",
     "jquery.easing": "^1.4.1",
     "rxjs": "^5.5.6",
+    "startbootstrap-new-age": "^4.0.0",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
