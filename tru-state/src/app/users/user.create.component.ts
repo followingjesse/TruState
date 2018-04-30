@@ -1,6 +1,6 @@
 import {Component, OnInit} from "@angular/core";
 
-Component({
+@Component({
   selector: 'app-user-create-component',
   templateUrl: 'user.create.component.html'
 })
