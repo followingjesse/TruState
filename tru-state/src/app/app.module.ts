@@ -11,7 +11,7 @@ import {UserCreateComponent} from "./users/user.create.component";
 
 const appRoutes: Routes = [
   {path:'home', component:HomeComponent},
-  {path:'auth/login.component', component:LoginComponent},
+  {path:'login', component:LoginComponent},
   {path:'create-user', component:UserCreateComponent},
   {path:'', redirectTo:'/home', pathMatch: 'full'}
   //{path: '**', component: PageNotFoundComponent}
