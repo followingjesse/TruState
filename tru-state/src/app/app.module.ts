@@ -12,7 +12,8 @@ import {UserCreateComponent} from "./users/user.create.component";
 const appRoutes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'login', component:LoginComponent},
-  {path:'create-user', component:UserCreateComponent}
+  {path:'create-user', component:UserCreateComponent},
+  {path:'', redirectTo:'/home', pathMatch: 'full'}
   //{path: '**', component: PageNotFoundComponent}
 ];
 
@@ -21,7 +22,7 @@ const appRoutes: Routes = [
     AppComponent, LoginComponent
   ],
   imports: [
-    RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    RouterModule.forRoot(appRoutes),
     BrowserModule, HttpClientModule
   ],
   providers: [AuthService],
